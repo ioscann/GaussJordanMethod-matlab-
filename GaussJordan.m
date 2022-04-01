@@ -6,7 +6,7 @@ a = [b c];
 
 for i=1:m-1
     for j=i+1:m
-        if (a(i,i) == 0) %eğer koşegen 0 ise satırları yer değiştiriyoru
+        if (a(i,i) == 0) %eğer koşegen 0 ise satırları yer değiştiriyoruz%
             temp = a(i,:);
             a(i,:) = a(j,:);
             a(j,:) = temp;
