@@ -34,6 +34,3 @@ end
 
 a %gauss jordan metou uygulanmış matrisin son halini yazdırıyoruz
 x' %sonuç matrisinin transpozunu alıp vektöre çeviriyoruz ve bitti
-      
-
-
