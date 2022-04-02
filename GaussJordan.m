@@ -14,7 +14,7 @@ for i=1:m-1
     end
     
     for j=i+1:m
-        a(j,:) = (a(j,i)/a(i,i))*a(i,:)-a(j,:); %pivotun bir altındaki elemanı pivota bölüp çıkan sonucu pivotun olduğu satırla çarpıyoruz ve sonra pivot elemanın altındaki satırı pivot elemanın satırından çıkarıyoruz yani üst üçgen yapıyoruz                 
+        a(j,:) = (a(j,i)/a(i,i))*(-a(i,:))+a(j,:); %pivotun bir altındaki elemanı pivota bölüp çıkan sonucu pivotun olduğu satırla çarpıyoruz ve sonra pivot elemanın altındaki satırı pivot elemanın satırından çıkarıyoruz yani üst üçgen yapıyoruz                 
     end
 end
 
